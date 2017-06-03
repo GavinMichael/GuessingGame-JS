@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Quiz</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans:700" rel="stylesheet">
+	<link rel="stylesheet" href="styles-dist.css">
+</head>
+<body>
+	<div class="header">
+		<!-- //Title -->
+		<!-- //Source code -->
+		<div class="header-child-items">
+			<h2>A simple quiz made with JavaScript.</h2>
+			<h4>Checkout the code on <a href="https://github.com/GavinMichael/first-JS-script/blob/master/quiz.js" target="_blank">GitHub</a></h4>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="action-area" id="actionArea">
+			<!-- //p => questions -->
+			<!-- //p => remaining questions -->
+			<!-- //input => answer -->
+			<!-- //submit => submit answer -->
+			<!-- //p => outcome  -->
+			<p class="main-question" id="question">
+			<!-- //main question
+			//bold
+			//strong -->
+			
+		</p>
+
+		<p class="remaining-questions" id="questionsLeft">
+			<!-- //right aligned 
+			//small font -->
+			
+		</p>
+
+		<!-- //big box 
+		//big fonts
+		//light grey -->
+		<form action="#">
+			<input type="text" class="answer-box" id="userAnswer" placeholder="Answer Here">
+			<input type="submit" value="Submit" class="submit-btn" id="submitBtn" onclick="ansSubmit()">
+		</form>
+		<p class="question-outcome" id="outcome">
+			
+		</p>
+	</div>
+	<div class="results">
+		<p id="gameResults">
+			
+		</p>
+	</div>
+	<div class="playCTA">
+		<button id="gameTrigger" class="play-btn" onclick="startGame()">
+			Play
+		</button>
+	</div>
+
+	<div class="footer">
+		<p>
+			Created by <a href="https://github.com/GavinMichael" target="_blank">Gavin Michael</a>
+		</p>
+	</div>
+	<script src='quiz.js'></script>
+</div>
+</body>
+</html>
